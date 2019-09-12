@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+}
+
+table{
+    width:100%;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+}
+
+footer a{
+    text-decoration: none;
+    line-height: 25px;
+    color: gray;
+}
+footer a:visited{
+    color: gray;
+}
+
+footer{
+    height: 650px;
+    background-color: #d4d4d4;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 140px;
+    padding-right: 140px;
+    color: gray;
+    font-size: 14px;
+}
+
+
+.black {
+    color: black;
+    font-size: 30px;
+}
+
+.logo{
+    position: relative;
+    top: 30%;
+}
+
+.announcement{
+    color: rgb(137, 136, 138);
+}
+
+.learn-more{
+    text-decoration: none;
+    color: rgb(48, 179, 240);
+}
+
+.buttons a i {
+    color: white;
+}
+
+.fa-apple{
+    color: white;
+    font-size: 20px;
+    /* margin-left: 45px; */
+}
+
+.buttons a {
+    margin-left: 80px;
+    text-decoration: none;
+    position: relative;
+    top: 30%;
+}
+
+
+.iphone-11-pro{
+    text-align: center;
+    padding-top: 90px;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.iphone-11-pro .article-title {
+    font-size: 85px;
+    line-height: 100px;
+    width: 60%;
+    color: white;
+    margin: 0 auto;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.details {
+        color: white;
+        padding-left: 60px;
+        padding-top: 250px;
+        font-size: 30px;
+        text-align: center;
+        
+}
+.article-body{
+    display: inline-flex;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.title-details{
+    color: white;
+}
+
+#watch-keynote-button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in;
+}
+
+#watch-keynote-button{
+    width: 260px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #ffffff00;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    margin: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 5vh;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 70px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    position: relative;
+    top: 30%;
+    color: white;
+}
